@@ -1,0 +1,128 @@
+body{
+  background-color: blue;
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+/*Contenedor*/
+
+.contenedor{
+  background-color: #B3D0F9;
+  width: 600px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+}
+
+/*Cajas del contenedor*/
+
+.item{
+  background-color: #A578F4;
+  width: 120px;
+  border: 2px solid #3A0C89;
+  border-radius: 10px;
+  padding: 3px;
+  text-align: center;
+  margin: 2px;
+}
+
+/*Flex-direction*/
+
+#flexdirection{
+  flex-direction: column-reverse;
+}
+
+/*Flex-wrap*/
+
+#flexwrap{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Flex-flow*/
+
+#flexflow{
+  flex-flow: row wrap;
+}
+
+/*Justify-content*/
+
+#justifycontent{
+  width: 800px; /*El ancho es mas grande para que se vea mejor como funciona*/
+  justify-content: space-around; /*Los items se colocan con un espacio proporcional entre ellos*/
+}
+
+
+/*Align-items*/
+
+#alignitems{
+  height: 100px;
+  align-items: flex-end;
+}
+
+/*Align-content*/
+
+#aligncontent{
+  height: 250px;
+  flex-wrap: wrap; /*Necesario para aplicar el atributo align-content*/
+  align-content: center;
+}
+
+/*Gap*/
+
+#gap{
+  flex-flow: row wrap;
+  row-gap: 20px;
+  column-gap: 15px;
+}
+
+/*Flex-grow*/
+
+#flexgrow1{
+  flex-grow: 1;
+}
+#flexgrow4{
+  flex-grow: 4;
+}
+#flexgrow2{
+  flex-grow: 2
+}
+
+/*Flex-shrink*/
+
+#flexshrink4{
+  flex-shrink: 4;
+}
+#flexshrink2{
+  flex-shrink: 2;
+}
+
+/*Order*/
+
+#orden1{
+  order: 1; /*Este elemento será el primero*/
+}
+#orden3{
+  order: 3; /*Este elemento será el tercero*/
+}
+
+/*Flex-basis*/
+
+#flexbasis{
+  flex-basis: 240px; /*Define el espacio restante que toma un elemento antes de distribuir el espacio*/
+}
+
+/*Align-self*/
+
+#altura{
+  height: 100px; /*Del contenedor*/
+}
+
+#alignself{
+  align-self: center; /*Alinea un elemento individualmente*/
+}
