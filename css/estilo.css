@@ -101,6 +101,9 @@ a{
 #flexshrink2{
   flex-shrink: 2;
 }
+#shrink0{
+  flex-shrink: 0;
+}
 
 /*Order*/
 
